@@ -12,7 +12,7 @@ body{
 }
 header{
 width: 100%; height: fit-content; background-color: white; display: flex; justify-content: space-between; align-items: center; }   
-.a{
+.flipkart_logo{
     display: inline-block;
     margin: 15px 30px;
 }
