@@ -11,7 +11,7 @@ body{
     width: 100%;
 }
 header{
-width: 100%; height: fit-content; background-color: white; display: flex; justify-content: space-between; align-items: center; }   
+width: 100%; height: fit-content; background-color: white; display: flex; justify-content: space-around; align-items: center; }   
 .flipkart_logo{
     display: inline-block;
     margin: 15px 30px;
@@ -62,13 +62,14 @@ img{
 }
 .b:hover{
     color: white;
-    background-color: blue;
+    background-color: rgb(159, 159, 183);
     border-radius: 5px;
 }
 .e:hover{
     color: white;
     background-color: gray;
     border-radius: 5px;
+    cursor: pointer;
 }
 .e{
     height: 30px;
