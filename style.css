@@ -78,7 +78,8 @@ img{
 }
 .container{  
     position: relative;
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
     height: 185px;
     margin-top: 12px;
     display: flex;
@@ -103,108 +104,108 @@ img{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
-.box2{
-    width: 70px;
-    height: 70px;
-   
-    border: 2px solid white;
-    background-size: contain;
+    /* .box2{
+        width: 70px;
+        height: 70px;
+    
+        border: 2px solid white;
+        background-size: contain;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.box3{
-    width: 70px;
-    height: 70px;
-  
-    border: 2px solid white;
-    background-size: contain;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .box3{
+        width: 70px;
+        height: 70px;
+    
+        border: 2px solid white;
+        background-size: contain;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-}
-.box4{
-    width: 70px;
-    height: 70px;
-  
-    border: 2px solid white;
-    background-size: contain;
-
-
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-.box5{
-    width: 70px;
-    height: 70px;
-  
-    border: 2px solid white;
-    background-size: contain;
+    }
+    .box4{
+        width: 70px;
+        height: 70px;
+    
+        border: 2px solid white;
+        background-size: contain;
 
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-}
-.box6{
-    width: 70px;
-    height: 70px;
+    }
+    .box5{
+        width: 70px;
+        height: 70px;
+    
+        border: 2px solid white;
+        background-size: contain;
 
-    border: 2px solid white;
-    background-size: contain;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-}
-.box7{
-    width: 70px;
-    height: 70px;
-  
-    border: 2px solid white;
-    background-size: contain;
+    }
+    .box6{
+        width: 70px;
+        height: 70px;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: 2px solid white;
+        background-size: contain;
 
-}
-.box8{
-    width: 70px;
-    height: 70px;
-  
-    border: 2px solid white;
-    background-size: contain;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .box7{
+        width: 70px;
+        height: 70px;
+    
+        border: 2px solid white;
+        background-size: contain;
 
-    border: 2px solid white;
-}
-.box9{
-    width: 70px;
-    height: 70px;
-   
-    background-size: contain;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .box8{
+        width: 70px;
+        height: 70px;
+    
+        border: 2px solid white;
+        background-size: contain;
 
-    border: 2px solid white;
-}
-.box10{
-    width: 70px;
-    height: 70px;
-  
-    background-size: contain;
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    font-size: medium;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: 2px solid white;
+    }
+    .box9{
+        width: 70px;
+        height: 70px;
+    
+        background-size: contain;
 
-    border: 2px solid white;
-}
-.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover{
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        border: 2px solid white;
+    }
+    .box10{
+        width: 70px;
+        height: 70px;
+    
+        background-size: contain;
+
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        border: 2px solid white;
+    } */
+.box1:hover{
     background-color: #f2f2f2;
     border: 2px solid transparent;
 }
